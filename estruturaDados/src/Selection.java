@@ -14,9 +14,9 @@ public class Selection {
                 if (arr[j] < arr[min_idx])
                     min_idx = j;
 
-            // Troca o menor elemento encontrado pelo primeiro elemento do array
+            // Seta o numero do array no menor index na variavel temporaria temp
             int temp = arr[min_idx];
-            //seta o numero como o menor elemento do array o numero do array na posição i
+            //seta o numero no index i na menor posição
             arr[min_idx] = arr[i];
             arr[i] = temp;
         }
@@ -40,3 +40,4 @@ public class Selection {
     }
 
 }
+
